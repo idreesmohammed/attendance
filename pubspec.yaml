@@ -1,0 +1,145 @@
+name: attendanceapp
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  select_form_field:
+  flutter_datetime_picker:
+  syncfusion_flutter_datepicker:
+  calendar_timeline:
+  intl:
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/homepagemodule/cash.png
+     - assets/homepagemodule/image_2021_09_18T11_41_59_221Z.png
+     - assets/homepagemodule/checkin.png
+     - assets/homepagemodule/locationicon.png
+     - assets/homepagemodule/editedclockout.png
+     - assets/homepagemodule/clock.png
+     - assets/background/signin/withoutclockbackground.png
+     - assets/homepagemodule/clockout.png
+     - assets/attendancemodule/Icon awesome-file-alt.png
+     - assets/homepagemodule/Group 25.png
+     - assets/homepagemodule/listicon.png
+     - assets/homepagemodule/location.png
+     - assets/homepagemodule/Path 35.png
+     - assets/homepagemodule/Path 35@2x.png
+     - assets/homepagemodule/messageemoji.png
+     - assets/homepagemodule/messageemoji.png
+     - assets/homepagemodule/Path 144.png
+     - assets/homepagemodule/anticlock.png
+     - assets/homepagemodule/clockwise.png
+     - assets/homepagemodule/settingsone.png
+     - assets/homepagemodule/settingstwo.png
+     - assets/homepagemodule/Path 37.png
+     - assets/homepagemodule/Path 144@2x.png
+     - assets/homepagemodule/Ellipse 12@2x.png
+     - assets/homepagemodule/Group 22.png
+     - assets/homepagemodule/user (3)@2x.png
+     - assets/homepagemodule/Icon awesome-calendar-alt.png
+     - assets/expenses/salad.png
+     - assets/expenses/Icon ionic-ios-arrow-forward.png
+     - assets/expenses/petrol-station.png
+     - assets/expenses/destination.png
+     - assets/homepagemodule/reedited.png
+     - assets/homepagemodule/red.png
+     - assets/commonbg/commonbg.png
+     - assets/homepagemodule/attendancebg.png
+     - assets/commonbg/image_2021_09_20T10_29_18_891Z.png
+     - assets/eassyattendancefirstpage/Ellipse 9.png
+     - assets/eassyattendancefirstpage/Ellipse 11.png
+     - assets/eassyattendancefirstpage/Attendance Logo.png
+     - assets/signintwo/Path 1.png
+     - assets/signintwo/blueclock.png
+     - assets/signintwo/undercorner.png
+     - assets/taskpage/tasktopcorner.png
+     - assets/EQUIPMENTENTRY/Icon awesome-clock.png
+     - assets/EQUIPMENTENTRY/Icon ionic-md-arrow-dropdown.png
+     - assets/EQUIPMENTENTRY/Icon awesome-calendar-alt.png
+     - assets/petrol/petroltopcorner.png
+     - assets/petrol/scooter.png
+     - assets/signintwo/clockwing.png
+     - assets/petrol/Rectangle1.png
+     - assets/petrol/Rectangle2.png
+     - assets/petrol/circle.png
+     - assets/background/background.png
+     - assets/background/signinbackground.png
+     - assets/attendancemodule/image_2021_09_22T06_11_23_441Z.png
+
+
+
+
+
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Poppins
+       fonts:
+         - asset: fonts/Poppins-Regular.ttf
+           weight: 800
+         - asset: fonts/Poppins-Bold.ttf
+           weight: 700
+         - asset: fonts/Poppins-Italic.ttf
+           weight: 300
+           style: italic
+         - asset: fonts/Poppins-SemiBold.ttf
+           weight: 600
+
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
