@@ -29,6 +29,7 @@ class _Calender2State extends State<Calender2> {
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
     var status = MediaQuery.of(context).padding.top;
+    var appBar = AppBar().preferredSize.height;
     return Container(
       height: height * 0.25,
       width: width,
