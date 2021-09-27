@@ -28,6 +28,7 @@ class _Calender2State extends State<Calender2> {
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
+    var status = MediaQuery.of(context).padding.top;
     return Container(
       height: height * 0.25,
       width: width,
@@ -44,6 +45,7 @@ class _Calender2State extends State<Calender2> {
         activeDayColor: Colors.white,
         activeBackgroundDayColor: Color(0xff2B3990),
         showYears: true,
+
         // locale: 'en_ISO',
       ),
     );
